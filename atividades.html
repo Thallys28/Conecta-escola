@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades e Materiais - Conecta Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conecta Escola</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Painel</a></li>
+                <li><a href="avisos.html">Avisos</a></li>
+                <li><a href="mensagens.html">Mensagens</a></li>
+                <li><a href="notas.html">Notas</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="frequencia.html">Frequência</a></li>
+                <li><a href="atividades.html" class="active">Atividades</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Atividades e Materiais de Aula</h2>
+        <p>Acesse os materiais e atividades disponibilizados pelos professores.</p>
+
+        <section class="materiais-list">
+            <!-- Filtros (por disciplina, data, etc.) - Placeholder -->
+            <div class="filters">
+                <label for="disciplina-filter">Filtrar por Disciplina:</label>
+                <select id="disciplina-filter" name="disciplina">
+                    <option value="todas">Todas</option>
+                    <option value="portugues">Português</option>
+                    <option value="matematica">Matemática</option>
+                    <option value="historia">História</option>
+                    <option value="geografia">Geografia</option>
+                    <option value="ciencias">Ciências</option>
+                    <!-- Adicionar mais disciplinas -->
+                </select>
+            </div>
+
+            <article class="material-item">
+                <h3>Matemática - Revisão Prova Bimestral</h3>
+                <p class="material-meta">Publicado em: 28/04/2025 | Por: Professor Silva</p>
+                <p>Material complementar com exercícios de revisão para a prova bimestral.</p>
+                <a href="#" class="download-link">Baixar Material (PDF)</a> <!-- Placeholder Link -->
+            </article>
+
+            <article class="material-item">
+                <h3>História - Apresentação Era Vargas</h3>
+                <p class="material-meta">Publicado em: 26/04/2025 | Por: Professora Costa</p>
+                <p>Slides utilizados na aula sobre a Era Vargas.</p>
+                <a href="#" class="download-link">Baixar Apresentação (PPTX)</a> <!-- Placeholder Link -->
+            </article>
+
+             <article class="material-item">
+                <h3>Ciências - Roteiro Experimento</h3>
+                <p class="material-meta">Publicado em: 24/04/2025 | Por: Professor Lima</p>
+                <p>Roteiro para o experimento sobre densidade dos líquidos a ser realizado em casa.</p>
+                <a href="#" class="download-link">Baixar Roteiro (DOCX)</a> <!-- Placeholder Link -->
+            </article>
+            <!-- Mais materiais -->
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Escola Conecta. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
