@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Aluno - Conecta Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conecta Escola</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Painel</a></li>
+                <li><a href="avisos.html">Avisos</a></li>
+                <li><a href="mensagens.html">Mensagens</a></li>
+                <li><a href="notas.html">Notas</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="frequencia.html">Frequência</a></li>
+                <li><a href="atividades.html">Atividades</a></li>
+                <li><a href="perfil.html" class="active">Perfil</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Perfil do Aluno</h2>
+
+        <section class="profile-info">
+            <h3>Dados Pessoais</h3>
+            <div class="info-grid">
+                <div><strong>Nome Completo:</strong> João da Silva Sauro</div> <!-- Placeholder -->
+                <div><strong>Matrícula:</strong> 20250123</div> <!-- Placeholder -->
+                <div><strong>Data de Nascimento:</strong> 10/03/2010</div> <!-- Placeholder -->
+                <div><strong>Turma:</strong> 9º Ano B</div> <!-- Placeholder -->
+                <div><strong>Responsável 1:</strong> Maria da Silva Sauro</div> <!-- Placeholder -->
+                <div><strong>Contato Resp. 1:</strong> (11) 98765-4321</div> <!-- Placeholder -->
+                 <div><strong>Responsável 2:</strong> José Sauro</div> <!-- Placeholder -->
+                <div><strong>Contato Resp. 2:</strong> (11) 91234-5678</div> <!-- Placeholder -->
+                <div><strong>Email Contato:</strong> maria.sauro@email.com</div> <!-- Placeholder -->
+            </div>
+            <button>Editar Informações</button> <!-- Placeholder/Funcionalidade futura -->
+        </section>
+
+        <section class="profile-settings">
+            <h3>Configurações da Conta</h3>
+            <form>
+                <div class="form-group">
+                    <label for="senha-atual">Senha Atual:</label>
+                    <input type="password" id="senha-atual" name="senha-atual">
+                </div>
+                 <div class="form-group">
+                    <label for="nova-senha">Nova Senha:</label>
+                    <input type="password" id="nova-senha" name="nova-senha">
+                </div>
+                 <div class="form-group">
+                    <label for="confirma-senha">Confirmar Nova Senha:</label>
+                    <input type="password" id="confirma-senha" name="confirma-senha">
+                </div>
+                <button type="submit">Alterar Senha</button> <!-- Placeholder -->
+            </form>
+            <hr>
+            <h4>Notificações</h4>
+            <label><input type="checkbox" checked> Receber notificações por email</label><br>
+            <label><input type="checkbox" checked> Receber notificações push no app (simulado)</label><br>
+            <button>Salvar Preferências</button> <!-- Placeholder -->
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Escola Conecta. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
